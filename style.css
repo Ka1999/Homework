@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+header{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: aqua;
+    padding: 40px;
+    padding: 20px;
+}
+
+.titulo-seccion{
+    font-size: 40px;
+    font-family: 'Montserrat' , monospace;
+    font-weight: 700;
+    margin: 5;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(127, 255, 212);
+    font-family: 'Roboto Nano' , monospace;
+    text-align: center;
+    margin: 0;
+}
+
+.italic {
+    font-size: italic;
+}
+
