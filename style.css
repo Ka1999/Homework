@@ -1,30 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
 
+h1{
+    text-decoration: underline;
+}
+
+#perfil{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+
 header{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-color: aqua;
+    background-color: #B3B7EE;
     padding: 40px;
     padding: 20px;
+}
+
+#descripcion_header {
+    font-size: 17px;
+    font-family:  'Roboto Nano' , monospace;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.redes {
+    width: 20px;
+    height: 20px;
 }
 
 .titulo-seccion{
     font-size: 40px;
     font-family: 'Montserrat' , monospace;
     font-weight: 700;
+    text-decoration: underline;
     margin: 5;
     text-align: center;
 }
 
+.secciones-imagen {
+    width: 40px;
+    height: 40px;
+}
+
+
+.subtitulo {
+    font-size: 30px;
+    font-family: 'Montserrat' , monospace;
+}
+
+.subtitulo li {
+    font-size: italic;
+}
+
+
 body {
-    background-color: rgb(127, 255, 212);
+    background-color: #9395D3;
     font-family: 'Roboto Nano' , monospace;
     text-align: center;
     margin: 0;
-}
-
-.italic {
-    font-size: italic;
 }
 
