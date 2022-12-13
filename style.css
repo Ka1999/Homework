@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
 
 h1{
     text-decoration: underline;
@@ -14,7 +14,7 @@ header{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-color: #B3B7EE;
+    background-color: #82C0CC;
     padding: 40px;
     padding: 20px;
 }
@@ -34,13 +34,12 @@ a{
     height: 20px;
 }
 
-.titulo-seccion{
-    font-size: 40px;
-    font-family: 'Montserrat' , monospace;
-    font-weight: 700;
-    text-decoration: underline;
-    margin: 5;
-    text-align: center;
+body {
+  background-color: #489FB5;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  margin: 0;
 }
 
 .secciones-imagen {
@@ -49,20 +48,99 @@ a{
 }
 
 
-.subtitulo {
-    font-size: 30px;
-    font-family: 'Montserrat' , monospace;
+h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+h2 i {
+  color: #e5989b;
 }
 
-.subtitulo li {
-    font-size: italic;
+h3 {
+  color: black;
+}
+
+#titulo-principal {
+  font-size: 40px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
 }
 
 
-body {
-    background-color: #9395D3;
-    font-family: 'Roboto Nano' , monospace;
-    text-align: center;
-    margin: 0;
+.italic {
+  font-style: italic;
 }
 
+.card {
+  padding: 20px;
+  margin-right: 20px;
+  min-width: 500px;
+}
+
+.lista {
+  margin: 0;
+  padding: 0;
+}
+.lista > li {
+  list-style: none;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+.skill .skill-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.skill .progress {
+  height: 10px;
+  background-color: black;
+}
+.skill .progress.percentage {
+  transition: width 2s ease;
+  width: 0;
+  background-color: #16697A;
+  animation-name: progress-bar;
+  animation-duration: 2s;
+}
+
+.idioma {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.idioma .stars {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.idioma .stars li {
+  list-style: none;
+}
+.idioma .stars li .fa-solid {
+  color: #16697A;
+}
+
+@keyframes progress-bar {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
