@@ -1,0 +1,47 @@
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+  }
+  h2 i {
+    color: #e5989b;
+  }
+  
+  h3 {
+    color: black;
+  }
+  
+  #titulo-principal {
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .card {
+    padding: 20px;
+    margin-right: 20px;
+    min-width: 500px;
+  }
+  
+  .lista {
+    margin: 0;
+    padding: 0;
+  }
+  .lista > li {
+    list-style: none;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }

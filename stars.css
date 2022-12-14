@@ -1,0 +1,28 @@
+.idioma {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .idioma .stars {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .idioma .stars li {
+    list-style: none;
+  }
+  .idioma .stars li .fa-solid {
+    color: #16697A;
+  }
+  
+  @keyframes progress-bar {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+}

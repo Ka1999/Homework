@@ -1,0 +1,21 @@
+
+.skill {
+    margin-bottom: 15px;
+  }
+  .skill .skill-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .skill .progress {
+    height: 10px;
+    background-color: black;
+  }
+  .skill .progress.percentage {
+    transition: width 2s ease;
+    width: 0;
+    background-color: #16697A;
+    animation-name: progress-bar;
+    animation-duration: 2s;
+  }
+  
